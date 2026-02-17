@@ -1,0 +1,202 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio | Yasin Emre ERTÜRK</title>
+  <meta name="description" data-i18n-content="meta_description" content="Project portfolio: AI Post Maker, E-Power E-commerce Platform (Dia A.S.), Shopping Mall Management System (SAR System).">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Portfolio | Yasin Emre ERTÜRK">
+  <meta property="og:description" data-i18n-content="meta_description" content="AI Post Maker, E-Power E-commerce Platform, and Shopping Mall Management System project highlights.">
+  <meta property="og:url" content="https://ysnerturkemre.github.io/yasinemreerturk.github.io/portfolio/">
+  <meta property="og:image" content="../assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Portfolio | Yasin Emre ERTÜRK">
+  <meta name="twitter:description" data-i18n-content="meta_description" content="Portfolio projects from Rails-focused and product-oriented full-stack development work.">
+  <meta name="twitter:image" content="../assets/og.png">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            ink: "#e2e8f0",
+            slatebg: "#06080d",
+            panel: "#12151f",
+            accent: "#ef4444"
+          },
+          fontFamily: {
+            sans: ["Public Sans", "sans-serif"],
+            mono: ["JetBrains Mono", "monospace"]
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-page="portfolio" data-i18n-title="meta_title" class="bg-slatebg text-ink font-sans antialiased">
+  <div class="site-shell">
+    <div class="grid-backdrop"></div>
+    <div class="radial-glow"></div>
+
+    <div class="page-wrap">
+      <header class="sticky top-0 z-40 border-b border-white/10 bg-[#06080d]/85 backdrop-blur-xl">
+        <div class="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-4 sm:px-6">
+          <a href="../index.html" class="inline-flex items-center gap-2 font-mono text-sm font-semibold text-white">
+            <span class="text-accent">&gt;_</span>
+            <span>YasinEmreErturk<span class="text-accent">.github.io</span></span>
+          </a>
+
+          <nav class="hidden items-center gap-8 md:flex" aria-label="Main navigation">
+            <a href="../index.html" data-page-target="home" class="nav-link" data-i18n="nav_home">Anasayfa</a>
+            <a href="../about/index.html" data-page-target="about" class="nav-link" data-i18n="nav_about">Hakkimda</a>
+            <a href="./index.html" data-page-target="portfolio" class="nav-link" data-i18n="nav_portfolio">Portfolyo</a>
+            <a href="../contact/index.html" data-page-target="contact" class="nav-link" data-i18n="nav_contact">Iletisim</a>
+          </nav>
+
+          <div class="flex items-center gap-2">
+            <div class="icon-toggle hidden sm:inline-flex" role="group" aria-label="Site controls">
+              <button type="button" class="icon-btn" data-lang-toggle aria-label="Toggle language">
+                <svg class="icon-theme" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9"></circle>
+                  <path d="M3 12h18"></path>
+                  <path d="M12 3a15 15 0 0 1 0 18"></path>
+                  <path d="M12 3a15 15 0 0 0 0 18"></path>
+                </svg>
+                <span class="icon-badge" data-lang-current>TR</span>
+              </button>
+              <button type="button" class="icon-btn" data-theme-toggle aria-label="Toggle theme">
+                <svg class="icon-theme icon-theme-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
+                </svg>
+                <svg class="icon-theme icon-theme-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="4"></circle>
+                  <path d="M12 2v2.5M12 19.5V22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M2 12h2.5M19.5 12H22M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"></path>
+                </svg>
+              </button>
+            </div>
+            <a href="../YasinEmreErturk.pdf" download="YasinEmreErturk.pdf" class="hidden rounded-lg border border-white/20 bg-white/5 px-3 py-2 text-xs font-mono text-white hover:border-accent/60 hover:text-rose-100 sm:inline-flex" data-i18n="resume_pdf">Resume.pdf</a>
+            <button type="button" data-menu-toggle aria-label="Toggle menu" aria-expanded="false" class="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-white/20 bg-white/5 text-slate-200 md:hidden">=</button>
+          </div>
+        </div>
+        <nav data-mobile-menu class="mobile-menu border-t border-white/10 bg-[#080b13] px-4 py-3 md:hidden" aria-label="Mobile navigation">
+          <div class="flex flex-col gap-3 text-sm">
+            <div class="icon-toggle" role="group" aria-label="Site controls">
+              <button type="button" class="icon-btn" data-lang-toggle aria-label="Toggle language">
+                <svg class="icon-theme" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9"></circle>
+                  <path d="M3 12h18"></path>
+                  <path d="M12 3a15 15 0 0 1 0 18"></path>
+                  <path d="M12 3a15 15 0 0 0 0 18"></path>
+                </svg>
+                <span class="icon-badge" data-lang-current>TR</span>
+              </button>
+              <button type="button" class="icon-btn" data-theme-toggle aria-label="Toggle theme">
+                <svg class="icon-theme icon-theme-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
+                </svg>
+                <svg class="icon-theme icon-theme-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="4"></circle>
+                  <path d="M12 2v2.5M12 19.5V22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M2 12h2.5M19.5 12H22M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"></path>
+                </svg>
+              </button>
+            </div>
+            <a href="../index.html" data-page-target="home" class="nav-link" data-i18n="nav_home">Anasayfa</a>
+            <a href="../about/index.html" data-page-target="about" class="nav-link" data-i18n="nav_about">Hakkimda</a>
+            <a href="./index.html" data-page-target="portfolio" class="nav-link" data-i18n="nav_portfolio">Portfolyo</a>
+            <a href="../contact/index.html" data-page-target="contact" class="nav-link" data-i18n="nav_contact">Iletisim</a>
+          </div>
+        </nav>
+      </header>
+
+      <main class="mx-auto w-full max-w-6xl px-4 pb-20 pt-14 sm:px-6 md:pt-20">
+        <section class="mb-12">
+          <p class="section-label" data-i18n="portfolio_label">Portfolio / Selected Work</p>
+          <h1 class="mt-2 text-4xl font-extrabold text-white sm:text-5xl" data-i18n="portfolio_heading">Selected Projects</h1>
+          <p class="mt-5 max-w-3xl text-lg text-slate-300" data-i18n="portfolio_desc">Real project snapshots from product delivery: personal build and company team projects.</p>
+        </section>
+
+        <section class="grid gap-6 md:grid-cols-2">
+          <article class="glass-panel rounded-2xl p-4">
+            <div class="p-2 pt-2">
+              <h2 class="text-2xl font-bold text-white">AI Post Maker</h2>
+              <p class="mt-2 text-mono text-sm text-slate-400">Full-stack personal project</p>
+              <ul class="mt-3 list-disc space-y-2 pl-5 text-slate-300">
+                <li>Built a Rails-based web app that generates AI-powered social media text and images.</li>
+                <li>Integrated image generation tools and background job processing for async tasks.</li>
+                <li>Designed core back-end flows and connected them to a simple, clear UI with Turbo/Hotwire.</li>
+                <li>Used clean project structure to keep features easy to maintain and extend.</li>
+              </ul>
+              <p class="mt-4 text-slate-300">
+                <span class="font-semibold">Tech:</span> Ruby on Rails, PostgreSQL, Redis, Sidekiq, Turbo/Hotwire, Docker, REST APIs, Background Jobs, Basic DevOps Setup
+              </p>
+              <div class="mt-5 flex flex-wrap gap-3">
+                <a href="https://github.com/ysnerturkemre/ai_post_maker" target="_blank" rel="noopener noreferrer" class="btn-primary" data-i18n="github_repo">GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="glass-panel rounded-2xl p-4">
+            <div class="p-2 pt-2">
+              <h2 class="text-2xl font-bold text-white">E-Power E-commerce Platform (Dia A.S.)</h2>
+              <p class="mt-2 text-mono text-sm text-slate-400">Team project</p>
+              <ul class="mt-3 list-disc space-y-2 pl-5 text-slate-300">
+                <li>Worked on both back-end and front-end features in a Ruby on Rails based e-commerce platform.</li>
+                <li>Built and improved settings pages, including navigation and search-based access.</li>
+                <li>Contributed to integration updates, bug fixes, and daily product improvements.</li>
+              </ul>
+              <p class="mt-4 text-slate-300">
+                <span class="font-semibold">Tech:</span> Ruby on Rails, JavaScript, Phlex, Turbo, Bootstrap, PostgreSQL
+              </p>
+              <div class="mt-5 flex flex-wrap gap-3">
+                <span class="chip chip-amber" data-i18n="private_project">Private company project</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="glass-panel rounded-2xl p-4">
+            <div class="p-2 pt-2">
+              <h2 class="text-2xl font-bold text-white">Shopping Mall Management System (SAR System)</h2>
+              <p class="mt-2 text-mono text-sm text-slate-400">Team project</p>
+              <ul class="mt-3 list-disc space-y-2 pl-5 text-slate-300">
+                <li>Helped develop modules for rental tracking, utility costs, and financial records.</li>
+                <li>Built UI screens and supported system behavior with back-end changes.</li>
+                <li>Took part in fixing issues and improving existing features.</li>
+              </ul>
+              <p class="mt-4 text-slate-300">
+                <span class="font-semibold">Tech:</span> JavaScript, AngularJS, Node.js, MongoDB
+              </p>
+              <div class="mt-5 flex flex-wrap gap-3">
+                <span class="chip chip-amber" data-i18n="private_project">Private company project</span>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+
+      <footer class="border-t border-white/10">
+        <div class="mx-auto flex w-full max-w-6xl flex-col gap-4 px-4 py-8 text-sm text-slate-400 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+          <p class="text-mono">&copy; <span class="js-year"></span> <span data-i18n="footer_text">Yasin Emre ERTÜRK. Engineering Portfolio.</span></p>
+          <div class="flex items-center gap-5 text-mono">
+            <a href="https://github.com/ysnerturkemre" target="_blank" rel="noopener noreferrer" class="hover:text-rose-300">GitHub</a>
+            <a href="https://www.linkedin.com/in/yasin-emre-erturk/" target="_blank" rel="noopener noreferrer" class="hover:text-rose-300">LinkedIn</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="../assets/script.js" defer></script>
+</body>
+</html>
+
+
+
+
+

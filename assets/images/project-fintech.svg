@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="FinTech API Core project preview">
+  <rect width="640" height="360" rx="18" fill="#0b1220"/>
+  <rect x="24" y="24" width="592" height="312" rx="12" fill="#020617" stroke="#334155"/>
+  <rect x="48" y="50" width="544" height="26" rx="6" fill="#111827"/>
+  <text x="66" y="68" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="14">POST /v1/transactions/authorize</text>
+  <rect x="48" y="92" width="260" height="220" rx="10" fill="#111827" stroke="#334155"/>
+  <rect x="332" y="92" width="260" height="220" rx="10" fill="#111827" stroke="#334155"/>
+  <text x="66" y="118" fill="#22d3ee" font-family="JetBrains Mono, monospace" font-size="13">Request</text>
+  <text x="350" y="118" fill="#22d3ee" font-family="JetBrains Mono, monospace" font-size="13">Response</text>
+  <rect x="62" y="132" width="226" height="14" rx="5" fill="#1f2937"/>
+  <rect x="62" y="156" width="172" height="14" rx="5" fill="#1f2937"/>
+  <rect x="62" y="180" width="204" height="14" rx="5" fill="#1f2937"/>
+  <rect x="346" y="132" width="226" height="14" rx="5" fill="#1f2937"/>
+  <rect x="346" y="156" width="198" height="14" rx="5" fill="#1f2937"/>
+  <rect x="346" y="180" width="174" height="14" rx="5" fill="#1f2937"/>
+</svg>

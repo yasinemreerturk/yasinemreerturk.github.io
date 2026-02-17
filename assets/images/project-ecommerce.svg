@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="E-Commerce Scale project preview">
+  <rect width="640" height="360" rx="18" fill="#0b1220"/>
+  <rect x="28" y="26" width="584" height="308" rx="12" fill="#020617" stroke="#334155"/>
+  <rect x="50" y="54" width="250" height="24" rx="6" fill="#111827"/>
+  <rect x="314" y="54" width="132" height="24" rx="6" fill="#111827"/>
+  <rect x="456" y="54" width="132" height="24" rx="6" fill="#dc2626"/>
+  <rect x="50" y="98" width="168" height="194" rx="10" fill="#111827" stroke="#334155"/>
+  <rect x="236" y="98" width="168" height="194" rx="10" fill="#111827" stroke="#334155"/>
+  <rect x="422" y="98" width="166" height="194" rx="10" fill="#111827" stroke="#334155"/>
+  <text x="68" y="126" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="14">Catalog</text>
+  <text x="254" y="126" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="14">Orders</text>
+  <text x="440" y="126" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="14">Payments</text>
+</svg>

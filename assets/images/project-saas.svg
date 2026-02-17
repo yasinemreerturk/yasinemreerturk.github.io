@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="SaaS Analytics project preview">
+  <rect width="640" height="360" rx="18" fill="#0b1220"/>
+  <rect x="24" y="24" width="592" height="312" rx="12" fill="#020617" stroke="#334155"/>
+  <rect x="52" y="58" width="536" height="42" rx="9" fill="#111827"/>
+  <text x="72" y="84" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="14">Analytics Dashboard</text>
+  <rect x="52" y="116" width="360" height="184" rx="10" fill="#111827" stroke="#334155"/>
+  <rect x="428" y="116" width="160" height="84" rx="10" fill="#111827" stroke="#334155"/>
+  <rect x="428" y="216" width="160" height="84" rx="10" fill="#111827" stroke="#334155"/>
+  <polyline points="70,268 118,236 166,250 214,198 262,210 310,162 358,174 394,136" fill="none" stroke="#22d3ee" stroke-width="4"/>
+  <circle cx="214" cy="198" r="5" fill="#ef4444"/>
+  <circle cx="310" cy="162" r="5" fill="#ef4444"/>
+</svg>

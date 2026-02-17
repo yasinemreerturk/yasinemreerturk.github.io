@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="Engineering system architecture illustration">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070d"/>
+      <stop offset="50%" stop-color="#0a1020"/>
+      <stop offset="100%" stop-color="#050912"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1324"/>
+      <stop offset="100%" stop-color="#0a1020"/>
+    </linearGradient>
+    <linearGradient id="terminal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#334155" stroke-opacity=".22"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="560" rx="30" fill="url(#bg)"/>
+  <rect width="800" height="560" rx="30" fill="url(#grid)"/>
+  <ellipse cx="580" cy="82" rx="230" ry="84" fill="#ef4444" fill-opacity=".08"/>
+  <ellipse cx="156" cy="516" rx="220" ry="72" fill="#0ea5e9" fill-opacity=".08"/>
+
+  <rect x="52" y="48" width="696" height="464" rx="24" fill="url(#panel)" stroke="#334155"/>
+
+  <rect x="86" y="88" width="412" height="300" rx="14" fill="url(#terminal)" stroke="#475569"/>
+  <rect x="86" y="88" width="412" height="34" rx="14" fill="#0f172a"/>
+  <circle cx="109" cy="105" r="5" fill="#ef4444"/>
+  <circle cx="126" cy="105" r="5" fill="#f59e0b"/>
+  <circle cx="143" cy="105" r="5" fill="#22c55e"/>
+  <text x="170" y="110" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-size="12">deploy/session.rb</text>
+
+  <text x="108" y="152" fill="#64748b" font-family="JetBrains Mono, monospace" font-size="13">$ bundle exec rails s</text>
+  <text x="108" y="178" fill="#22d3ee" font-family="JetBrains Mono, monospace" font-size="13">Booting Puma on 0.0.0.0:3000</text>
+  <text x="108" y="204" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="13">GET /api/v1/orders    200   41ms</text>
+  <text x="108" y="230" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="13">POST /payments/webhook 202  18ms</text>
+  <text x="108" y="256" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="13">job Sidekiq::SyncInvoice queued</text>
+  <text x="108" y="282" fill="#a3e635" font-family="JetBrains Mono, monospace" font-size="13">cache hit: redis/session:9f4c</text>
+  <text x="108" y="308" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="13">SQL SELECT users.* FROM users</text>
+  <text x="108" y="334" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="13">tx commit in 6.3ms</text>
+  <rect x="104" y="352" width="272" height="7" rx="3.5" fill="#1e293b"/>
+  <rect x="104" y="352" width="178" height="7" rx="3.5" fill="url(#pulse)"/>
+
+  <rect x="520" y="88" width="196" height="300" rx="14" fill="#0b1220" stroke="#475569"/>
+  <text x="542" y="116" fill="#e2e8f0" font-family="JetBrains Mono, monospace" font-size="12">system_topology.yml</text>
+
+  <line x1="618" y1="152" x2="618" y2="332" stroke="#334155" stroke-dasharray="5 5"/>
+  <line x1="580" y1="196" x2="656" y2="196" stroke="#334155"/>
+  <line x1="580" y1="244" x2="656" y2="244" stroke="#334155"/>
+  <line x1="580" y1="292" x2="656" y2="292" stroke="#334155"/>
+
+  <rect x="542" y="136" width="152" height="32" rx="8" fill="url(#chip)" stroke="#475569"/>
+  <text x="556" y="156" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="12">rails_api</text>
+  <circle cx="677" cy="152" r="5" fill="#22c55e" filter="url(#glow)"/>
+
+  <rect x="542" y="180" width="152" height="32" rx="8" fill="url(#chip)" stroke="#475569"/>
+  <text x="556" y="200" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="12">postgresql</text>
+  <circle cx="677" cy="196" r="5" fill="#3b82f6" filter="url(#glow)"/>
+
+  <rect x="542" y="228" width="152" height="32" rx="8" fill="url(#chip)" stroke="#475569"/>
+  <text x="556" y="248" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="12">redis_cache</text>
+  <circle cx="677" cy="244" r="5" fill="#22d3ee" filter="url(#glow)"/>
+
+  <rect x="542" y="276" width="152" height="32" rx="8" fill="url(#chip)" stroke="#475569"/>
+  <text x="556" y="296" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="12">sidekiq_worker</text>
+  <circle cx="677" cy="292" r="5" fill="#f59e0b" filter="url(#glow)"/>
+
+  <rect x="542" y="324" width="152" height="32" rx="8" fill="url(#chip)" stroke="#475569"/>
+  <text x="556" y="344" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="12">docker_runtime</text>
+  <circle cx="677" cy="340" r="5" fill="#ef4444" filter="url(#glow)"/>
+
+  <rect x="86" y="410" width="630" height="66" rx="12" fill="#0f172a" stroke="#334155"/>
+  <text x="108" y="435" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-size="12">pipeline</text>
+  <text x="108" y="457" fill="#22d3ee" font-family="JetBrains Mono, monospace" font-size="13">build -> test -> deploy   |   latency p95: 120ms   |   uptime: 99.94%</text>
+  <circle cx="638" cy="443" r="6" fill="#22c55e" filter="url(#glow)"/>
+</svg>
