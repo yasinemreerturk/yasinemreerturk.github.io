@@ -35,8 +35,8 @@ const I18N = {
       meta_og_description:
         "Yaklasik 4 yillik full-stack deneyim, son 2 yili Ruby on Rails odakli urun gelistirme.",
       hero_status: "System Status: Available for Hire",
-      hero_heading: "Engineering scalable solutions with Rails, architecture, and product reliability.",
-      hero_role: "Full-stack Developer (Ruby on Rails) | Backend-first, product-oriented",
+      hero_heading: "Rails, mimari ve ürün güvenilirliği ile ölçeklenebilir çözümler geliştiriyorum.",
+      hero_role: "Full-stack Geliştirici (Ruby on Rails) | Backend-öncelikli, ürün odaklı",
       hero_desc1:
         "Yaklasik 4 yildir Full-stack Developer olarak calisiyorum. Bu deneyimin son 2 yili Ruby on Rails odakli gecti; bu surecte e-ticaret platformlari, yonetim panelleri ve operasyonel is uygulamalarinda hem backend hem frontend gelistirmeler yaptim.",
       hero_desc2:
