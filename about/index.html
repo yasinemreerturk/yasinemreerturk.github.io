@@ -255,8 +255,8 @@
               <p class="mt-2 max-w-2xl text-slate-300" data-i18n="resume_desc">Deneyim ve proje kapsamı detayları için güncel CV dosyalarını indirebilirsiniz.</p>
             </div>
             <div class="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-              <a href="../YasinEmreErturk.pdf" download="YasinEmreErturk.pdf" class="btn-primary" data-i18n="download_cv_en">Download CV (EN)</a>
-              <a href="../assets/cv/YasinEmreErturk_TR.pdf" download="YasinEmreErturk_TR.pdf" class="btn-primary" data-i18n="download_cv_tr">CV İndir (TR)</a>
+              <a href="../YasinEmreErturk.pdf" download="YasinEmreErturk.pdf" class="btn-primary" data-i18n="download_cv_en" onclick="gtag('event','cv_download_en',{event_category:'engagement',value:1})">Download CV (EN)</a>
+              <a href="../assets/cv/YasinEmreErturk_TR.pdf" download="YasinEmreErturk_TR.pdf" class="btn-primary" data-i18n="download_cv_tr" onclick="gtag('event','cv_download_tr',{event_category:'engagement',value:1})">CV İndir (TR)</a>
             </div>
           </div>
         </section>
